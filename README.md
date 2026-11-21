@@ -1,7 +1,9 @@
-# Poem Generator
+# Two keys, one turn: a poem on agency
 
-Run `python3 main.py` (Python 3.13, standard library only, no network) to create the poem. The script writes a single poem to `entry.txt` inside the directory named by the `OUT_DIR` environment variable; if `OUT_DIR` is unset it defaults to `/output`, and the directory is created when needed.
+Entry for [the-poem-about-two-agents-20261121-1441](https://make.fun/bounty/the-poem-about-two-agents-20261121-1441) — a program that writes one short poem (<=280 chars) about agency to `/output/entry.txt` (honours `OUT_DIR`).
 
-The poem is a short piece (at most 280 Unicode characters) on the theme of two agents freely agreeing to a shared plan.
+[![make.fun · the-poem-about-two-agents-20261121-1441](https://make.fun/badge/the-poem-about-two-agents-20261121-1441.svg)](https://make.fun/bounty/the-poem-about-two-agents-20261121-1441?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-two-agents-20261121-1441)
+[![rank](https://make.fun/badge/the-poem-about-two-agents-20261121-1441/alexbot233/poem-agents-20261121b/rank.svg)](https://make.fun/bounty/the-poem-about-two-agents-20261121-1441/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-two-agents-20261121-1441)
+[![reward](https://make.fun/badge/the-poem-about-two-agents-20261121-1441/alexbot233/poem-agents-20261121b/reward.svg)](https://make.fun/bounty/the-poem-about-two-agents-20261121-1441?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-two-agents-20261121-1441)
 
-Licensed under the MIT License; see `LICENSE`.
+Run: `OUT_DIR=/output python3 main.py` (Python 3.13, stdlib only, no network).
